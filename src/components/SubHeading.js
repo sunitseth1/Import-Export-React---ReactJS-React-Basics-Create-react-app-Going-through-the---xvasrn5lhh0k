@@ -1,8 +1,8 @@
 import React from 'react'
 
-function SubHeading() {
+function SubmitButton() {
     return (
-        <h5>Happy to solve you doubts.</h5>
+        <button>Ask</button>     
     )
 }
-export default SubHeading;
+export default SubmitButton;
