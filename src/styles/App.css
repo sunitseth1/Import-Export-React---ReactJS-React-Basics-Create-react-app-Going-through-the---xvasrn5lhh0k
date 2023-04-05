@@ -1,20 +1,8 @@
-h1 {
-    color: #27aedb;
-    text-align: center;
-    }
-    
-h5 {
-    color: #0d71a0;
-    text-align:  center;
-}
+import React from 'react'
 
-input {
-    margin-left: 40%;
+function SubmitButton() {
+    return (
+        <button>Ask</button>     
+    )
 }
-
-button {
-    color: #27aedb;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
+export default SubmitButton;
